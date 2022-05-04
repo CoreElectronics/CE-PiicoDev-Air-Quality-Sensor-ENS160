@@ -5,7 +5,13 @@
   (paper "A4")
 
   (title_block
+    (title "PiicoDev Air Quality Sensor")
+    (date "2022-05-04")
+    (rev "00")
     (company "Core Electronics")
+    (comment 1 "Designed by Peter Johnston at")
+    (comment 2 "PiicoDev and the PiicoDev logo are trademarks of Core Electronics Pty Ltd.")
+    (comment 3 "License: CCASAv4.0 http://creativecommons.org/licenses/by-sa/4.0")
   )
 
   (lib_symbols

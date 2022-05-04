@@ -48,8 +48,25 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "silk_over_copper|102362000|112776000|3fe0482b-99de-4801-a833-1ca11c4c6565|27d84b5d-9e97-494c-b6ba-07ac346905f2",
+        "silk_over_copper|102362000|112776000|a4e22a47-8081-427b-a284-fdb057c6b905|27d84b5d-9e97-494c-b6ba-07ac346905f2",
+        "silk_over_copper|92202000|112776000|566e9479-34cd-4eeb-9f04-da7095cf834d|f32c2f85-8628-4aef-b0ce-af0a913da233",
+        "silk_over_copper|92202000|112776000|99b44b99-9267-45b4-8d8b-aba19c113080|f32c2f85-8628-4aef-b0ce-af0a913da233",
+        "silk_over_copper|94742000|112776000|88038f5a-819c-4b14-8666-185d4dea888c|75cc27b7-643d-48a9-923f-5c82c2d298e6",
+        "silk_over_copper|94742000|112776000|b8ee1618-d313-4513-ab90-99a2a1b3d494|75cc27b7-643d-48a9-923f-5c82c2d298e6",
+        "silk_over_copper|97282000|112776000|41aad57c-9f74-45cf-982b-ff1ed8e86bdf|043e1839-a8c1-4f2e-aa98-a6a015efcb7f",
+        "silk_over_copper|97282000|112776000|d04ab286-2b57-4fcd-bb56-8469027689bb|043e1839-a8c1-4f2e-aa98-a6a015efcb7f",
+        "silk_over_copper|99822000|112776000|191553a1-e825-4ef9-9c32-9f04a56e4912|cd0e4276-367c-4b81-b27c-9d8133ea980a",
+        "silk_over_copper|99822000|112776000|e1f5643b-6690-4de7-9a31-857518d50794|cd0e4276-367c-4b81-b27c-9d8133ea980a"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -118,7 +135,12 @@
         0.3,
         0.4
       ],
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -338,14 +360,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PiicoDev.kicad_pro",
+    "filename": "CE-PiicoDev-Gas-Sensor-ENS160.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -362,7 +384,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
