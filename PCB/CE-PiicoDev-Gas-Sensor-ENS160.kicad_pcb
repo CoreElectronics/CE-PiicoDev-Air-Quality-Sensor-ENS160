@@ -5813,7 +5813,7 @@
   (gr_arc (start 106.982 88.646) (mid 109.10332 89.52468) (end 109.982 91.646) (layer "Edge.Cuts") (width 0.05) (tstamp aa2ea573-3f20-43c1-aa99-1f9c6031a9aa))
   (gr_line (start 84.582 112.776) (end 84.582 91.646) (layer "Edge.Cuts") (width 0.05) (tstamp d0d2eee9-31f6-44fa-8149-ebb4dc2dc0dc))
   (gr_arc (start 84.582 91.646) (mid 85.46068 89.52468) (end 87.582 88.646) (layer "Edge.Cuts") (width 0.05) (tstamp f40d350f-0d3e-4f8a-b004-d950f2f8f1ba))
-  (gr_text "v01" (at 86.492 112.522) (layer "B.Cu") (tstamp 7f2301df-e4bc-479e-a681-cc59c9a2dbbb)
+  (gr_text "v10" (at 86.492 112.522) (layer "B.Cu") (tstamp 7f2301df-e4bc-479e-a681-cc59c9a2dbbb)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
   (gr_text "piico.dev/p23" (at 97.282 93.853) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00005fb716ab)
